@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mapTown</title>
+</head>
+<body onclick="eve(event)">
+    <img src="images/world.gif" alt="">
+
+    <script>
+
+function eve(e){
+    
+let a = `${e.pageX}`;
+a=parseFloat(a);
+
+
+
+if (a == 985 ||a == 986 ||a == 987 ||a == 988 || a==989 || a==990 ){
+window.open("home6london.html", null, "width=1280 height=1000");}
+else{ 
+    if (a==1704) {
+        window.open("home6tokio.html", null, "width=1280 height=1000");}
+   else { 
+       if (a==615) {window.open("home6ny.html", null, "width=1280 height=1000");}
+else {
+  
+alert(`Ваша координата: ${a} Информация есть координат: 985-990, 1704, 615`)}} }
+
+
+}
+
+    </script>
+
+
+
+</body>
+</html>
